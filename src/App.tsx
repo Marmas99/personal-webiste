@@ -1,12 +1,10 @@
-import Description from "./components/Description/Description"
-import Title from "./components/Title/Title"
+import Card from "./components/Containers/Card/Card"
 
 const App = () => {
   return (
     <>
       <div>
-        <Title />
-        <Description />
+        <Card />
       </div>
     </>
   )
