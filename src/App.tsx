@@ -1,8 +1,12 @@
+import Description from "./components/Description/Description"
+import Title from "./components/Title/Title"
+
 const App = () => {
   return (
     <>
       <div>
-        <h1>Hello World</h1>
+        <Title />
+        <Description />
       </div>
     </>
   )
