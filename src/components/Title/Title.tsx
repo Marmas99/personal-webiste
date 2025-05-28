@@ -1,6 +1,11 @@
+import { useTranslation } from 'react-i18next';
+
+
 const Title = () => {
+    const { t } = useTranslation();
+
     return (
-        <h3>This is a title</h3>
+        <h3>{t("hero.title")}</h3>
     );
 }
  

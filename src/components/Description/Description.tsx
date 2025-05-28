@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const Description = () => {
+    const { t } = useTranslation();
+
     return ( 
-        <p>This is a description</p>
+        <p>{t("hero.description")}</p>
      );
 }
  
