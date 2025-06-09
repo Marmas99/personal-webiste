@@ -1,4 +1,4 @@
-import Card from "./components/Containers/Card/Card"
+import Card from "./components/Containers/Card/HeroCard"
 import style from "./App.module.css"
 
 const App = () => {

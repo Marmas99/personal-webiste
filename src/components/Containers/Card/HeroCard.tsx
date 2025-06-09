@@ -1,6 +1,6 @@
 import Description from "../../Description/Description";
 import Title from "../../Title/Title";
-import style from "./Card.module.css"
+import style from "./HeroCard.module.css"
 
 
 
